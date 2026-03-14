@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Rafeh | Mobile App Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen bg-white selection-blue">
+
+   <nav class="fixed top-0 left-0 w-full z-50 bg-blue-500 backdrop-blur-md border-b border-blue-400">
+    <div class="max-w-7xl mx-auto px-7 h-20 flex items-center justify-between">
+        <div class="text-xl font-black tracking-tighter flex items-center">
+    <span id="nav-name" class="text-slate-900 mr-1">Abdul</span>
+    <span class="bg-[#0A66C2] text-white px-1.5 py-0.5 rounded-[3px]">Rafeh</span>
+        </div>
+        <div class="hidden md:flex gap-8 text-xs font-bold text-blue-100 uppercase tracking-widest">
+            <a href="#about" class="hover:text-white transition-colors">About</a>
+            <a href="#portfolio" class="hover:text-white transition-colors">Portfolio</a>
+            <a href="#services" class="hover:text-white transition-colors">Services</a>
+            <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+        </div>
+        
+        <a href="#contact" class="px-6 py-2.5 bg-white text-blue-600 text-xs font-bold rounded-full hover:bg-blue-50 transition-all">Hire Me</a>
+    </div>
+    </nav>
+
+    <main class="pt-20">
+        <!-- Hero Section -->
+        <section class="py-24 px-6">
+            <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-600 text-xs font-bold mb-8">
+                        <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+                        Available for new projects
+                    </div>
+                    <h1 class="text-6xl md:text-8xl font-black text-slate-900 leading-[0.9] tracking-tighter mb-8" id="hero-title">
+                        Building <span class="text-blue-600">Digital</span> Experiences.
+                    </h1>
+                    <p class="text-lg text-slate-500 leading-relaxed max-w-md mb-10" id="hero-subtitle">
+                        Passionate Mobile App Developer specializing in Kotlin, Java, and Jetpack Compose.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#portfolio" class="px-8 py-4 bg-blue-600 text-white font-bold rounded-2xl hover:bg-blue-500 transition-all shadow-lg shadow-blue-200">View Work</a>
+                        <a href="#contact" class="px-8 py-4 bg-white text-slate-900 font-bold rounded-2xl border border-slate-200 hover:bg-slate-50 transition-all">Contact Me</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="aspect-square rounded-[3rem] bg-slate-100 overflow-hidden shadow-2xl">
+                        <img src="profile_photo.webp" alt="Developer" class="w-full h-full object-cover" referrerpolicy="no-referrer">
+                    </div>
+                    <div class="absolute -bottom-8 -left-8 p-8 bg-white rounded-3xl shadow-xl border border-slate-100">
+                        <div class="text-3xl font-black text-slate-900">2+</div>
+                        <div class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-24 px-6 bg-slate-100">
+            <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+                <div class="grid grid-cols-2 gap-4 md:gap-6">
+                    <div class="aspect-square p-4 md:p-8 rounded-[2rem] bg-white shadow-xl shadow-slate-200/50 border border-slate-100 flex flex-col items-center justify-center text-center hover:-translate-y-1 transition-transform">
+                        <div class="w-10 h-10 md:w-12 md:h-12 rounded-2xl bg-blue-50 flex items-center justify-center mb-3 md:mb-4">
+                            <i data-lucide="smartphone" class="text-blue-600"></i>
+                        </div>
+                        <div class="text-2xl md:text-3xl font-black text-slate-900 mb-1">10+</div>
+                        <div class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Apps Developed</div>
+                    </div>
+                    <div class="aspect-square p-4 md:p-8 rounded-[2rem] bg-white shadow-xl shadow-slate-200/50 border border-slate-100 flex flex-col items-center justify-center text-center hover:-translate-y-1 transition-transform">
+                        <div class="w-10 h-10 md:w-12 md:h-12 rounded-2xl bg-emerald-50 flex items-center justify-center mb-3 md:mb-4">
+                            <i data-lucide="check-circle-2" class="text-emerald-600"></i>
+                        </div>
+                        <div class="text-2xl md:text-3xl font-black text-slate-900 mb-1">5+</div>
+                        <div class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Play Store</div>
+                    </div>
+                    <div class="aspect-square p-4 md:p-8 rounded-[2rem] bg-white shadow-xl shadow-slate-200/50 border border-slate-100 flex flex-col items-center justify-center text-center hover:-translate-y-1 transition-transform">
+                        <div class="w-10 h-10 md:w-12 md:h-12 rounded-2xl bg-indigo-50 flex items-center justify-center mb-3 md:mb-4">
+                            <i data-lucide="code" class="text-indigo-600"></i>
+                        </div>
+                        <div class="text-2xl md:text-3xl font-black text-slate-900 mb-1">2+</div>
+                        <div class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Years Exp</div>
+                    </div>
+                    <div class="aspect-square p-4 md:p-8 rounded-[2rem] bg-white shadow-xl shadow-slate-200/50 border border-slate-100 flex flex-col items-center justify-center text-center hover:-translate-y-1 transition-transform">
+                        <div class="w-10 h-10 md:w-12 md:h-12 rounded-2xl bg-amber-50 flex items-center justify-center mb-3 md:mb-4">
+                            <i data-lucide="download" class="text-amber-600"></i>
+                        </div>
+                        <div class="text-2xl md:text-3xl font-black text-slate-900 mb-1">30k+</div>
+                        <div class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-tight">Combined Downloads</div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="text-4xl font-black text-slate-900 mb-6">About Me</h2>
+                    <p class="text-slate-500 leading-relaxed mb-8" id="about-text">
+                        I am a versatile developer with a strong foundation in both Mobile and Web technologies. As a dedicated Mobile Application Developer, I specialize in Android development, creating high-performance, user-centric applications that solve real-world problems. Beyond mobile, I am also proficient in building responsive and dynamic web experiences using HTML, CSS, and JavaScript, as well as developing customized, scalable solutions within the WordPress ecosystem.</p>
+                    <div class="flex flex-wrap gap-2" id="skills-container">
+                        <!-- Skills will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+       <section id="portfolio" class="py-24 px-6 bg-blue-100">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-end gap-8 mb-16">
+                    <div>
+                        <h2 class="text-4xl font-black text-slate-900 mb-4">Featured Projects</h2>
+                        <p class="text-slate-500">A selection of my best work in mobile and web development.</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-container">
+                    <!-- Projects will be injected here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-24 px-6 bg-slate-900 text-white">
+            <div class="max-w-7xl mx-auto">
+                <h2 class="text-4xl font-black mb-16">Services</h2>
+                <div class="grid md:grid-cols-3 gap-12">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-blue-500/20 flex items-center justify-center mb-6">
+                            <i data-lucide="smartphone" class="text-blue-400"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Android Development</h3>
+                        <p class="text-slate-400 leading-relaxed">Native app development using Kotlin and Java with modern architectures like MVVM.</p>
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 flex items-center justify-center mb-6">
+                            <i data-lucide="layout" class="text-emerald-400"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">UI/UX Design</h3>
+                        <p class="text-slate-400 leading-relaxed">Creating intuitive and beautiful interfaces using Jetpack Compose and XML.</p>
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-amber-500/20 flex items-center justify-center mb-6">
+                            <i data-lucide="database" class="text-amber-400"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Backend Integration</h3>
+                        <p class="text-slate-400 leading-relaxed">Seamless integration with Firebase, REST APIs, and cloud services.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+         <section id="contact" class="relative z-20 py-24 px-6 bg-white">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-5xl font-black text-slate-900 mb-8">Let's work together.</h2>
+                    <p class="text-xl text-slate-500 mb-12">
+                          Have a project in mind? I'd love to hear about it.
+                    </p>
+
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="mailto:abdulrafehstudy@gmail.com"
+                class="px-10 py-5 bg-blue-600 text-white font-bold rounded-2xl">
+                Email Me
+                </a>
+
+                <a href="Abdul_Rafeh_CV.pdf"
+                target="_blank"
+                class="px-10 py-5 bg-white text-slate-900 font-bold rounded-2xl border border-slate-200">
+                Download CV
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-slate-100">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-slate-400 text-sm font-medium cursor-default select-none" id="copyright-text">
+                © 2026 Abdul Rafeh. All rights reserved.
+            </div>
+            <div class="flex gap-8 text-sm font-bold text-slate-400 uppercase tracking-widest">
+                <a href="#" class="hover:text-slate-900 transition-colors">Privacy</a>
+                <a href="#" class="hover:text-slate-900 transition-colors">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Admin Panel Modal -->
+    <div id="admin-modal" class="hidden fixed inset-0 z-[100] admin-panel" style="display: none;">
+        <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" onclick="closeAdmin()"></div>
+        <div class="absolute bottom-0 left-0 w-full bg-slate-900 text-white p-8 rounded-t-[3rem] max-h-[80vh] overflow-y-auto">
+            <div class="max-w-3xl mx-auto">
+                <div class="flex justify-between items-center mb-8">
+                    <h2 class="text-2xl font-black">Content Management</h2>
+                    <button onclick="closeAdmin()" class="text-slate-400 hover:text-white"><i data-lucide="x"></i></button>
+                </div>
+                
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-2">Full Name</label>
+                        <input type="text" id="input-name" class="w-full bg-slate-800 border-none rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-2">Hero Title</label>
+                        <input type="text" id="input-hero-title" class="w-full bg-slate-800 border-none rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-2">Hero Subtitle</label>
+                        <textarea id="input-hero-subtitle" class="w-full bg-slate-800 border-none rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500 outline-none h-24"></textarea>
+                    </div>
+                    <button onclick="saveContent()" class="w-full py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-2xl transition-all shadow-lg shadow-blue-900/20">
+                        Save Changes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="fab-trigger" class="fixed bottom-8 right-8 z-[60] bg-blue-600 text-white w-16 h-16 rounded-full shadow-2xl shadow-blue-400/40 flex items-center justify-center hover:scale-110 active:scale-95 transition-transform duration-300">
+    <i data-lucide="message-circle" class="w-8 h-8"></i>
+</button>
+
+<div id="contact-dialog" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4">
+    <div id="dialog-backdrop" class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+    
+    <div id="dialog-content" class="relative bg-white w-full max-w-lg rounded-[2.5rem] overflow-hidden shadow-2xl transform scale-90 opacity-0 transition-all duration-300">
+        
+        <div class="bg-blue-600 p-8 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16 blur-2xl"></div>
+            <button id="dialog-close" class="absolute top-6 right-6 text-white/80 hover:text-white transition-colors">
+                <i data-lucide="x"></i>
+            </button>
+            <h2 class="text-3xl font-black text-white tracking-tight">Let's Talk.</h2>
+            <p class="text-blue-100 text-sm mt-1">Direct contact for projects & inquiries</p>
+        </div>
+
+        <div class="p-8 space-y-4">
+            <a href="mailto:abdulrafehofficial@gmail.com" class="flex items-center gap-4 p-4 rounded-2xl border border-slate-100 hover:bg-blue-50 transition-all group">
+                <div class="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all">
+                    <i data-lucide="mail" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <span class="block text-[10px] font-black text-slate-400 uppercase tracking-widest leading-none mb-1">EMAIL ME</span>
+                    <span class="text-slate-900 font-bold">abdulrafehofficial@gmail.com</span>
+                </div>
+            </a>
+
+            <a href="tel:+447417457870" class="flex items-center gap-4 p-4 rounded-2xl border border-slate-100 hover:bg-slate-50 transition-all group">
+                <div class="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center group-hover:bg-slate-900 group-hover:text-white transition-all">
+                    <i data-lucide="phone" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <span class="block text-[10px] font-black text-slate-400 uppercase tracking-widest leading-none mb-1">CALL ME</span>
+                    <span class="text-slate-900 font-bold">+44 7417 457870</span>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abdulraf/" target="_blank" class="flex items-center gap-4 p-4 rounded-2xl border border-slate-100 hover:bg-[#0A66C2]/10 transition-all group">
+                <div class="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center group-hover:bg-[#0A66C2] group-hover:text-white transition-all">
+                    <i data-lucide="linkedin" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <span class="block text-[10px] font-black text-slate-400 uppercase tracking-widest leading-none mb-1">LINKEDIN</span>
+                    <span class="text-slate-900 font-bold">Connect on LinkedIn</span>
+                </div>
+            </a>
+
+            <div class="pt-4 grid grid-cols-2 gap-4">
+                <a href="mailto:abdulrafehofficial@gmail.com" class="flex items-center justify-center gap-2 py-4 bg-blue-600 text-white font-bold rounded-2xl shadow-lg shadow-blue-900/20 hover:bg-blue-500 transition-all">
+                    <i data-lucide="send" class="w-4 h-4"></i> Quick Email
+                </a>
+                <a href="Abdul_Rafeh_CV.pdf" target="_blank" class="flex items-center justify-center gap-2 py-4 bg-slate-100 text-slate-900 font-bold rounded-2xl hover:bg-slate-200 transition-all">
+                    <i data-lucide="file-text" class="w-4 h-4"></i> CV / Resume
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
